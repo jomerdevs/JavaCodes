@@ -22,3 +22,16 @@ public class DynamicArray {
         return array;
     }
 }
+
+// (EN) How to implement (ES) Como implementarlo
+/*
+DynamicArray array = new DynamicArray();
+array.add(10);
+array.add(25);
+array.add(50);
+
+int[] dynamicArray = array.getArray();
+for (int i = 0; i < dynamicArray.length-1; i++){
+    System.out.println(dynamicArray[i]);
+}
+*/
