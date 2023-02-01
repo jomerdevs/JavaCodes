@@ -15,7 +15,7 @@ public class MergeSortAlgorithm {
         int half = times.length/2;
         // separa la primera mitad desde el índice cero hasta la mitad del arreglo
         int[] left = Arrays.copyOfRange(times, 0, half);
-        // separa la sugunda mitad desde la itad del arreglo hasta la longitud del arreglo
+        // separa la sugunda mitad desde la mitad del arreglo hasta la longitud del arreglo
         int[] right = Arrays.copyOfRange(times, half, times.length);
         MergeSort(left);
         MergeSort(right);
